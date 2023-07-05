@@ -17,7 +17,7 @@ export default class PdfGenerator {
   private async generatePDF(req: Request, res: Response, next: NextFunction) {
     try {
       var options: any = {
-        path: "./output.pdf",
+        // path: "./documents/output.pdf",
         format: "A4",
         landscape: false,
         printBackground: true,
